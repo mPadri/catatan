@@ -20,13 +20,18 @@
 #### Cara buat branch
 
 > git branch `<nama branch>`
+> git checkout `<nama branch>` >> "*pindah branch*" 
 
 *atau*
 
-> git checkout -b `<nama branch>`
+> git checkout -b `<nama branch>` >> "*membuat dan pindah branch*"
 
 #### Cara melihat daftar branch
-> git branch
+> git branch >> "*nama yang ada tanda * tempat kita berada*"
 
+#### Cek status remote
+> git remote -v
 #### Cara add dan delete remote
-> git rm `<nama remote>`
+> git remote add `<nama remote>` `<link repository>` >> *tambah remote*
+
+> git remote rm `<nama remote>` >> *hapus remote*
